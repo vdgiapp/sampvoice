@@ -127,8 +127,8 @@ bool Network::SendControlPacket(const WORD packet, const LPCVOID dataAddr, const
 {
     if (Network::connectionStatus != ConnectionStatus::Connected)
         return false;
-
-    BitStream bitStream { sizeof(BYTE) + sizeof(ControlPacket) + dataSize };
+    
+    BitStream bitStream { static_cast<int>(sizeof(BYTE) + sizeof(ControlPacket) + dataSize) };
 
     bitStream.Write<BYTE>(kRaknetPacketId);
 
