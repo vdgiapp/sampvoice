@@ -1545,6 +1545,7 @@
     <None Include="resources\resource.aps">
       <Filter>Исходные файлы\resources</Filter>
     </None>
+    <None Include="resources\font2.bin" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="include\game\C3dMarker.cpp">
@@ -2690,11 +2691,15 @@
     <Image Include="resources\micro_passive.png">
       <Filter>Исходные файлы\resources</Filter>
     </Image>
+    <Image Include="..\..\logo(1).png" />
+    <Image Include="..\..\logo.png" />
+    <Image Include="logo.png" />
   </ItemGroup>
   <ItemGroup>
     <Font Include="resources\font.ttf">
       <Filter>Исходные файлы\resources</Filter>
     </Font>
+    <Font Include="resources\fontnew.ttf" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="resources\gauss.hlsl">

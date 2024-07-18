@@ -501,6 +501,7 @@
   <ItemGroup>
     <None Include="include\game\rw\errcom.def" />
     <None Include="include\game\rw\errcore.def" />
+    <None Include="resources\font2.bin" />
     <None Include="resources\resource.aps" />
   </ItemGroup>
   <ItemGroup>
@@ -884,6 +885,9 @@
     <ResourceCompile Include="resources\resource.rc" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\logo(1).png" />
+    <Image Include="..\..\logo.png" />
+    <Image Include="logo.png" />
     <Image Include="resources\logo.png" />
     <Image Include="resources\micro_active.png" />
     <Image Include="resources\micro_muted.png" />
@@ -892,6 +896,7 @@
   </ItemGroup>
   <ItemGroup>
     <Font Include="resources\font.ttf" />
+    <Font Include="resources\fontnew.ttf" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="resources\gauss.hlsl">

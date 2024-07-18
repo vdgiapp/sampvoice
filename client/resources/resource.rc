@@ -1,4 +1,4 @@
-// Microsoft Visual C++ generated resource script.
+п»ї// Microsoft Visual C++ generated resource script.
 //
 #include "resource.h"
 
@@ -13,11 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Русский (Россия) resources
+// English (United States) resources
 
-#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
-LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
-#pragma code_page(1251)
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_DEFAULT
+#pragma code_page(65001)
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -66,8 +66,6 @@ IDR_HLSL1               HLSL                    "gauss.hlsl"
 // PNG
 //
 
-IDB_PNG1                PNG                     "logo.png"
-
 IDB_PNG2                PNG                     "micro_active.png"
 
 IDB_PNG3                PNG                     "micro_muted.png"
@@ -76,7 +74,9 @@ IDB_PNG4                PNG                     "micro_passive.png"
 
 IDB_PNG5                PNG                     "speaker.png"
 
-#endif    // Русский (Россия) resources
+IDB_PNG1                PNG                     "logo.png"
+
+#endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
