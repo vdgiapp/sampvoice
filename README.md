@@ -1,4 +1,4 @@
-# **SAMPVOICE**
+# **[SAMPVOICE](https://github.com/CyberMor/sampvoice) - [FORKED](https://github.com/ZTzTopia/sampvoice) - [OPEN.MP VERSION](https://github.com/AmyrAhmady/sampvoice/)**
 English | [Русский](https://github.com/vdgiapp/sampvoice/blob/test/README.ru.md) | [Vietnamese](https://github.com/vdgiapp/sampvoice/blob/test/README.vn.md)
 
 ## Description
