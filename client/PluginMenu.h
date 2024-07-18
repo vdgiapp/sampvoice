@@ -24,8 +24,8 @@
 
 #include "../common/common.h"
 
-#if !defined(SAMP_RU) && !defined(SAMP_EN)
-#define SAMP_RU
+#if !defined(SAMP_VN) && !defined(SAMP_EN)
+#define SAMP_EN
 #endif
 
 class PluginMenu {
@@ -39,38 +39,38 @@ class PluginMenu {
 
 private:
 
-#if defined(SAMP_RU)
-    static constexpr auto kTitleText                       = "Настройки голосового чата";
-    static constexpr auto kTab1TitleText                   = "Общие";
-    static constexpr auto kTab1Desc1TitleText              = "Звук";
-    static constexpr auto kTab1Desc1EnableSoundText        = "Включить звук";
-    static constexpr auto kTab1Desc1VolumeSoundText        = "Громкость звука";
-    static constexpr auto kTab1Desc2TitleText              = "Эффекты";
-    static constexpr auto kTab1Desc2BalancerText           = "Сглаживание громкости";
-    static constexpr auto kTab1Desc2FilterText             = "Фильтр высоких частот";
-    static constexpr auto kTab1Desc3TitleText              = "Иконка над игроками";
-    static constexpr auto kTab1Desc3SpeakerIconScaleText   = "Масштаб";
-    static constexpr auto kTab1Desc3SpeakerIconOffsetXText = "Смещение по X";
-    static constexpr auto kTab1Desc3SpeakerIconOffsetYText = "Смещение по Y";
-    static constexpr auto kTab1Desc4TitleText              = "Сброс";
-    static constexpr auto kTab1Desc4ConfigResetText        = "Сбросить все настройки";
-    static constexpr auto kTab2TitleText                   = "Микрофон";
-    static constexpr auto kTab2Desc1TitleText              = "Устройство";
-    static constexpr auto kTab2Desc1EnableMicroText        = "Включить микрофон";
-    static constexpr auto kTab2Desc1MicroVolumeText        = "Громкость микрофона";
-    static constexpr auto kTab2Desc1DeviceNameText         = "Устройство ввода";
-    static constexpr auto kTab2Desc1CheckDeviceText        = "Проверить устройство (будет повторное эхо)";
-    static constexpr auto kTab2Desc2TitleText              = "Иконка микрофона";
-    static constexpr auto kTab2Desc2MicroIconScaleText     = "Масштаб";
-    static constexpr auto kTab2Desc2MicroIconPositionXText = "Позиция по X";
-    static constexpr auto kTab2Desc2MicroIconPositionYText = "Позиция по Y";
-    static constexpr auto kTab2Desc2MicroIconMoveText      = "Переместить";
-    static constexpr auto kTab2Desc3MicroNotFoundText      = "Нет доступных микрофонов";
-    static constexpr auto kTab3TitleText                   = "Чёрный список";
-    static constexpr auto kTab3Desc1TitleText              = "Фильтр";
-    static constexpr auto kTab3Desc1InputPlaceholderText   = "Введите ID или Nickname игрока...";
-    static constexpr auto kTab3Desc2PlayerListText         = "Игроки на сервере";
-    static constexpr auto kTab3Desc3BlackListText          = "Заблокированные игроки";
+#if defined(SAMP_VN)
+    static constexpr auto kTitleText = "Cài đặt voice chat";
+    static constexpr auto kTab1TitleText = "Chung";
+    static constexpr auto kTab1Desc1TitleText = "Âm thanh";
+    static constexpr auto kTab1Desc1EnableSoundText = "Bật tiếng";
+    static constexpr auto kTab1Desc1VolumeSoundText = "Âm lượng";
+    static constexpr auto kTab1Desc2TitleText = "Hiệu ứng";
+    static constexpr auto kTab1Desc2BalancerText = "Cân bằng âm thanh";
+    static constexpr auto kTab1Desc2FilterText = "Bộ lọc cao âm";
+    static constexpr auto kTab1Desc3TitleText = "Biểu tượng trên người chơi";
+    static constexpr auto kTab1Desc3SpeakerIconScaleText = "Kích cỡ";
+    static constexpr auto kTab1Desc3SpeakerIconOffsetXText = "Kích cỡ X";
+    static constexpr auto kTab1Desc3SpeakerIconOffsetYText = "Kích cỡ Y";
+    static constexpr auto kTab1Desc4TitleText = "Đặt lại";
+    static constexpr auto kTab1Desc4ConfigResetText = "Đặt lại tất cả";
+    static constexpr auto kTab2TitleText = "Microphone";
+    static constexpr auto kTab2Desc1TitleText = "Thiết bị";
+    static constexpr auto kTab2Desc1EnableMicroText = "Bật microphone";
+    static constexpr auto kTab2Desc1MicroVolumeText = "Âm lượng microphone";
+    static constexpr auto kTab2Desc1DeviceNameText = "Thiết bị vào";
+    static constexpr auto kTab2Desc1CheckDeviceText = "Kiểm tra thiết bị (sẽ bị vang)";
+    static constexpr auto kTab2Desc2TitleText = "Biểu tượng microphone";
+    static constexpr auto kTab2Desc2MicroIconScaleText = "Kích cỡ";
+    static constexpr auto kTab2Desc2MicroIconPositionXText = "Vị trí X";
+    static constexpr auto kTab2Desc2MicroIconPositionYText = "Vị trí Y";
+    static constexpr auto kTab2Desc2MicroIconMoveText = "Di chuyển";
+    static constexpr auto kTab2Desc3MicroNotFoundText = "Không có microphone khả dụng";
+    static constexpr auto kTab3TitleText = "Danh sách đen";
+    static constexpr auto kTab3Desc1TitleText = "Bộ lọc";
+    static constexpr auto kTab3Desc1InputPlaceholderText = "Nhập id người chơi hoặc tên...";
+    static constexpr auto kTab3Desc2PlayerListText = "Người chơi online";
+    static constexpr auto kTab3Desc3BlackListText = "Người chơi đã chặn";
 #elif defined(SAMP_EN)
     static constexpr auto kTitleText                       = "Voice chat settings";
     static constexpr auto kTab1TitleText                   = "General";
