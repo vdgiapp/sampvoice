@@ -1,5 +1,5 @@
 # **SAMPVOICE**
-English | [Русский](https://github.com/CyberMor/sampvoice/blob/master/README.ru.md)
+English | [Русский](https://github.com/vdgiapp/sampvoice/blob/test/README.ru.md) | [Vietnamese](https://github.com/vdgiapp/sampvoice/blob/test/README.vn.md)
 
 ## Description
 ---------------------------------
